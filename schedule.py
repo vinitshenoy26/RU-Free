@@ -21,7 +21,7 @@ querystring = {"year":year,
                "campus":"NB"} # Newark: NK
                               # Camden: CM
 
-
+#sends get response to URL
 response = re.get(url, params=querystring)
 data = response.json()
 
