@@ -55,5 +55,5 @@ def all_course_times(index_list, name):
 
     return all_courses_times
 
-# number of all courses
+# number of all courses.
 print(len(data))
