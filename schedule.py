@@ -55,9 +55,3 @@ def all_course_times(index_list, name):
 
     return all_courses_times
 
-# number of all courses.
-
-example_list = ['07249', '19922']
-name = "Person 1"
-
-pprint(all_course_times(example_list, name))
